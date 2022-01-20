@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Kitchen</title>
+</head>
+<body>
+<center>
+    <h1>Welcome to My Kitchen!</h1>
+    <p style="color: blueviolet; font-style: italic;">This site is all about my favorite restaurants.</p>
+
+    <h2>Here are some of my favorite restaurants:</h2>
+    
+<div class="Bardenay">
+    <img src="Bardenay.jpeg" width="300">
+    <a href="https://bardenay.com/" target="blank">
+        <p>Bardenay</p> 
+    </a> 
+</div>
+
+<div class="Hook & Reel">
+    <img src="Hook & Reel.jpeg" width="300" height="200">
+    <a href="https://hookreeltogo.com/" target="blank">
+        <p>Hook & Reel</p>
+    </a>
+</div>
+
+<div class="Tupelo Honey">
+   <img src="Tupelo Honey.jpeg" width="300" height="200">
+    <a href="https://tupelohoneycafe.com/location/boise/" target="blank">
+        <p>Tupelo Honey</p>
+    </a>
+</div>
+
+<div class="Sakana">
+    <img src="Sakana.jpeg" width="300">
+    <a href="https://www.sakanaid.com/" target="blank">
+        <p>Sakana</p>
+    </a>
+</div>
+
+<div class="Goldy's">
+    <img src="Goldy's.jpeg" width="300">
+    <a href="https://www.goldysbreakfastbistro.com/main.html" target="blank">
+        <p>Goldy's Breakfast bistro</p>
+    </a>
+</div>
+
+    <br>
+    <br>
+    <table>
+        <br>
+        <tr>
+            <th>Restaurant</th>
+            <th>Location</th>
+            <th>Hours of Operation</th>
+            <th>Contact</th>
+        </tr>
+
+        <tr>
+            <td>Bardenay</td>
+            <td>610 W Grove St, Boise, ID 83702</td>
+            <td>10 AM - 11 PM</td>
+            <td>(208) 426-0538</td>
+        </tr>
+
+        <tr>
+            <td>Hook & Reel</td>
+            <td>1510 N Eagle Rd, Meridian, ID 83642</td>
+            <td>11 AM - 10 PM</td>
+            <td>(208) 288-4488</td>
+        </tr>
+
+        <tr>
+            <td>Tupelo Honey</td>
+            <td>150 N 8th St #200, Boise, ID 83702</td>
+            <td>11 AM - 10 PM</td>
+            <td>(208) 803-6721</td>
+        </tr>
+
+        <tr>
+            <td>Sakana</td>
+            <td>7107 W State St, Garden City, ID 83714</td>
+            <td>11 AM - 10 PM</td>
+            <td>(208) 853-4993</td>
+        </tr>
+
+        <tr>
+            <td>Goldy's Breakfast Bistro</td>
+            <td>108 S Capitol Blvd, Boise, ID 83702</td>
+            <td>7 AM - 2 PM</td>
+            <td>(208) 345-4100</td>
+        </tr>
+    </table>
+    <br>
+    <h2>What restaurant do you want to try?</h2>
+     <form>
+        <ul style="list-style: none;">
+        <li>
+        </li>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name">
+            <p>Select any that apply:</p>
+            <label for="Bardenay">Bardenay</label>
+            <input type="checkbox" id="Bardenay" name="Bardenay"><br>
+        </li>
+        <li>
+            <label for="Hook & Reel">Hook & Reel</label>
+            <input type="checkbox" id="Hook & Reel" name="Hook & Reel">
+        </li>
+        <li>
+             <label for="Tupelo Honey">Tupelo Honey</label>
+            <input type="checkbox" id="Tupelo Honey" name="Tupelo Honey">
+        </li>
+         <li>
+            <label for="Sakana">Sakana</label>
+            <input type="checkbox" id="Sakana" name="Sakana">
+        </li>
+        <li>
+            <label for="Goldy's Breakfast Bistro">Goldy's Breakfast Bistro</label>
+            <input type="checkbox" id="Goldy's Breakfast Bistro" name="Goldy's Breakfast Bistro">
+        </li>
+    </ul>
+     </form>
+
+     <br>
+
+     <label for="type">What is your favorite food?</label>
+        <select name="type" id="type">
+            <option value="seafood">Seafood</option>
+            <option value="Italian">Italian</option>
+            <option value="Asian">Asian</option>
+            <option value="Mediterranean">Mediterranean</option>
+            <option value="Mexican">Mexican</option>
+            <option value="American">American</option>
+            <option value="Southern"></option>
+        </select>
+        
+        <br><br>
+    <textarea name="bio" id="bio" cols="30" rows="10">
+    Tell me about yourself!
+    </textarea>
+    <br><br>
+    <input type="submit" value="Ok Go!">
+
+</center>
+</body>
+</html>
